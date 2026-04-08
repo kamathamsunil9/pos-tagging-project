@@ -1,0 +1,23 @@
+Cross-Domain POS Tagging Performance Analysis
+🔹 Introduction
+
+Part-of-Speech (POS) tagging assigns grammatical labels (noun, verb, etc.) to words. This project evaluates how POS tagging performance changes across different text domains.
+
+🔹 Dataset
+
+We used the Brown Corpus, which contains categorized text such as news, fiction, romance, and more.
+
+🔹 Methodology
+Used Default, Unigram, and Bigram taggers
+Trained on one domain
+Tested on another domain
+Measured accuracy
+🔹 Results
+Same domain → high accuracy
+Different domains → lower accuracy
+
+(See heatmap.png for visualization)
+
+🔹 Conclusion
+
+POS tagging models are domain-dependent, and their performance decreases when applied to unseen domains.
